@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- 
+    Ejemplo de carga de una aplicacion en Three.js
+    rvivo@upv.es 2021
+-->
+<html lang="es">
+	<head>
+		<meta charset='utf-8'>
+		<title>Snake 3D</title>
+		<style>
+			body {
+				background-color: #000;
+				margin: 0px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Contenedor del app -->
+		<div id="container"></div>
+
+		<!-- Scripts de biblioteca -->
+		<script src="lib/three.min_r96.js"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="lib/tween_18.js"></script>
+		<script src="lib/LoaderSupport.js"></script>
+		<script src="lib/FBXLoader.js"></script>
+		<script src="lib/zlib_and_gzip.min.js"></script>
+
+        <!-- Mi script --> 
+		<script src="threejs/snake.js"></script>
+
+	</body>
+</html>
