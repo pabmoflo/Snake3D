@@ -712,7 +712,7 @@ function setupText(font) {
 	spaceText.position.y = -0.9;
 
 	var controlInfoGeo = new THREE.TextGeometry( 
-		'       WASD :  Move\n    C :  Reset Camera\nMouse :  Move Camera',
+		'       WASD :  Move\n    C :  Reset Camera\nMouse :  Move Camera\n  Space : Start/Pause',
 		{
 			size: 0.05,
 			height: 0.05,
@@ -726,7 +726,7 @@ function setupText(font) {
 	controlInfo = new THREE.Mesh( controlInfoGeo, textMat );
 	uiScene.add( controlInfo );
 	controlInfo.position.x = -0.35;
-	controlInfo.position.y = -0.6;
+	controlInfo.position.y = -0.5;
 
 	var ptsTextGeo = new THREE.TextGeometry( 
 		'Pts:',
